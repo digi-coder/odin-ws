@@ -39,4 +39,5 @@ a {
 .flex-nav .logo {
     font-size: 24px;
     color: #F9FAF8;
+    flex: 3;
 }
