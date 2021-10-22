@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: sans-serif;
+    background-color: black;
 }
 
 a {
@@ -18,10 +19,15 @@ a {
     display: inline-block;
 }
 
+.nav-links {
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
 .wrapper {
     max-width: 1000px;
     margin: 0 auto;
-    /* padding: 50px; */
+    padding: 0 20px;
 }
 
 .flex-nav ul {
@@ -37,7 +43,11 @@ a {
 }
 
 .flex-nav .logo {
-    font-size: 24px;
+    font-size: 18px;
     color: #F9FAF8;
-    flex: 3;
+    flex: 5;
+}
+
+.hero-content {
+    flex-direction: column;
 }
