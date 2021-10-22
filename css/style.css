@@ -1,16 +1,17 @@
 /* style.css */
 
 html {
-    box-sizing: border-box;
+    height: 100%;
 }
 
 *, *:before, *:after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 body {
+    height: 100%;
     font-family: sans-serif;
-    background-color: black;
+    /* background-color: black; */
 }
 
 a {
@@ -48,6 +49,7 @@ a {
     flex: 5;
 }
 
-.hero-content {
-    flex-direction: column;
+.hero-left {
+    color: white;
+    background-color: #1F2937;
 }
